@@ -1,0 +1,30 @@
+@media (max-width: 1200px){
+    .container{
+        width: 100%;
+    }
+    .intensive_box{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .about{
+        background: none;
+    }
+    .about_content{
+        padding-left: 0;
+    }
+    .skills{
+        height: auto;
+    }
+    .skills_box{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 360px){
+    .title_one{
+        font-size: 25px;
+    }
+}
